@@ -1,0 +1,23 @@
+{
+  "name": "mapbox-gl-js-toys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js",
+    "start": "budo index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "13.1.0",
+    "budo": "9.2.1",
+    "tap": "7.1.2"
+  },
+  "dependencies": {
+    "chroma-js": "1.2.1",
+    "csscolorparser": "1.0.3",
+    "mapbox-gl": "0.25.1",
+    "mapbox-gl-style-spec": "8.9.0"
+  }
+}
