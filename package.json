@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "tap test.js",
-    "build": "browserify index.js > bundle.js",
+    "build": "browserify index.js | uglifyjs -c -m > bundle.js",
     "start": "budo index.js:bundle.js"
   },
   "author": "",
@@ -19,6 +19,7 @@
     "chroma-js": "1.2.1",
     "csscolorparser": "1.0.3",
     "mapbox-gl": "0.25.1",
-    "mapbox-gl-style-spec": "8.9.0"
+    "mapbox-gl-style-spec": "8.9.0",
+    "uglify-js": "2.7.3"
   }
 }
